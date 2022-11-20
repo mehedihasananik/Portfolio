@@ -33,7 +33,7 @@ const Services = () => {
           by joining a company.
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download Resume</button>
+          <button className="button s-button">Download Cv</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
