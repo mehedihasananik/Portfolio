@@ -31,7 +31,8 @@ const Intro = () => {
           <span>Mehedi Hasan Anik</span>
           <span>
             I am an aspiring Front-end Web Developer with an extreme thirst for
-            learning, self-improvement, using new technologies and honing my skills to become a great developer.
+            learning, self-improvement, using new technologies and honing my
+            skills to become a great developer.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +40,17 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/MehediHasanAnik"><img src={Github} alt="" /></a>
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/MehediHasanAnik">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/mehedi-hasan-anik-88a693235/">
+            {" "}
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/mehedianik74/">
+            {" "}
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+// import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -25,6 +25,7 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <img src={Sidebar} alt="" />
+          <button className="text-center">Explore More</button>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
@@ -32,9 +33,9 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={HOC} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

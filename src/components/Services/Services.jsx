@@ -24,12 +24,13 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My</span>
+        <span>Skills</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I’m a Frontend Developer and my passion is coding. I want to improve my coding skills.
           <br />
-          ispum is simpley dummy text of printing
+          by
+          joining a company.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +47,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend"}
+            detail={"HTML5, CSS3, Bootstrap,Tailwind Css,JavaScript,React"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Backend"}
+            detail={"Node.js, Express.js, MongoDB, API, Firebase  Authentication"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +71,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Tools & Technologies"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "GitHub, Notepad++, VS Code, Heroku, Netlify, Figma"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
