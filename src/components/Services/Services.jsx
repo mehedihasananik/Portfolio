@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -27,13 +27,13 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My</span>
         <span>Skills</span>
         <spane>
-          I’m a Frontend Developer and my passion is coding. I want to improve my coding skills.
+          I’m a Frontend Developer and my passion is coding. I want to improve
+          my coding skills.
           <br />
-          by
-          joining a company.
+          by joining a company.
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -60,7 +60,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Backend"}
-            detail={"Node.js, Express.js, MongoDB, API, Firebase  Authentication"}
+            detail={
+              "Node.js, Express.js, MongoDB, API, Firebase  Authentication"
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -72,9 +74,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Tools & Technologies"}
-            detail={
-              "GitHub, Notepad++, VS Code, Heroku, Netlify, Figma"
-            }
+            detail={"GitHub, Notepad++, VS Code, Heroku, Netlify, Figma"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
